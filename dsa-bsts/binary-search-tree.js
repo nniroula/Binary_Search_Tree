@@ -50,7 +50,7 @@ class BinarySearchTree {
 
   /** find(val): search the tree for a node with value val.
    * return the node, if found; else undefined. Uses iteration. */
-/*
+
   find(val) {
       let currnet_node = this.root;
       let isFound = false;
@@ -74,7 +74,7 @@ class BinarySearchTree {
           return current_node;
       }
   }
-*/
+
   /** findRecursively(val): search the tree for a node with value val.
    * return the node, if found; else undefined. Uses recursion. */
 
@@ -84,7 +84,7 @@ class BinarySearchTree {
 
   /** dfsPreOrder(): Traverse the array using pre-order DFS.
    * Return an array of visited nodes. */
-/*
+
   dfsPreOrder() {
       let data = [];
       let current = this.root;
@@ -97,10 +97,10 @@ class BinarySearchTree {
       traverse(current_node);
       return data;
   }
-*/
+
   /** dfsInOrder(): Traverse the array using in-order DFS.
    * Return an array of visited nodes. */
-/*
+
   dfsInOrder() {
       let data = [];
       let current_node = this.root;
@@ -113,7 +113,7 @@ class BinarySearchTree {
       traverse(current_node);
       return data;
   }
-*/
+
   /** dfsPostOrder(): Traverse the array using post-order DFS.
    * Return an array of visited nodes. */
 
